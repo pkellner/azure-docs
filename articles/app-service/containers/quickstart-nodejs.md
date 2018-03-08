@@ -43,7 +43,8 @@ To complete this quickstart:
 In a terminal window on your machine, run the following command to clone the sample app repository to your local machine.
 
 ```bash
-git clone https://github.com/Azure-Samples/nodejs-docs-hello-world
+git clone htt
+ps://github.com/Azure-Samples/nodejs-docs-hello-world
 ```
 
 You use this terminal window to run all the commands in this quickstart.
@@ -87,8 +88,7 @@ Browse to your newly created web app. Replace _&lt;app name>_ with your web app 
 ```bash
 http://<app name>.azurewebsites.net
 ```
-
-Here is what your new web app should look like:
+Your azure web app has been created but since we have not yet linked your local node project to the the site, you will see just the default web page rendered by Azure.  Here is what you should see:
 
 ![Empty web app page](media/quickstart-nodejs/app-service-web-service-created.png)
 
